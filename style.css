@@ -1,0 +1,30 @@
+/*Sets the default background to red */
+h1 {
+    background: red;
+    color: white;
+    font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;  }
+
+h4 {
+    font-size: 8;
+}
+
+body {
+    font-size: 20px;
+    color: #fff;
+    background-color: #61122f;
+    scroll-behavior: smooth;
+}
+/*If the cwidth of the screen is equal >= 600 the background becomes green */
+@media only screen and (max-width:800px){
+   h1 {background-color: green;}
+   h1 {color: black;}
+}
+
+@media only screen and (max-width:600px){
+   h1 {background-color: blue;}
+   
+}
