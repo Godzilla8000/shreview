@@ -1,8 +1,11 @@
 /*Sets the default background to red */
+
 h1 {
     background: red;
     color: white;
     font-size: 40px;
+    margin: auto;
+    text-align: center;
 }
 
 h2 {
@@ -28,3 +31,9 @@ body {
    h1 {background-color: blue;}
    
 }
+
+.element {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
